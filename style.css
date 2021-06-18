@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+
+.container {  
+	width: 580px;  
+	height: 100px;
+	margin: auto;
+	display: flex;  
+	justify-content: center;  
+}  
+
+.button {
+	margin-top: 20px;
+	padding: 15px 15px;
+	margin: auto;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.topnav {
+	background-color: #333333;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav .selectable a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
