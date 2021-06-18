@@ -18,12 +18,10 @@
 </nav>
 
 <div style="color: black; margin-left: 30px; margin-right: 30px; margin-bottom: 8px">
-<h1 style="margin-top: 30px;">Coding</h1>
-<p style="font-size: 17px;">How to play the game: use the arrow keys to move the Earth left and right (touch the left and right side of the screen if on a mobile device). Hit the spacebar to get the smaller Earth to move and the game to begin. When the smaller Earth hits a polititian, they are knocked from the cabinet. If  the smaller Earth goes below the screen, or the larger Earth is hit by a falling politician, you lose a life. If you  take down all the politicians before losing three lives yourself, you win the game! <b>Click on the image to play :)</b></p>
+<h1 style="margin-top: 25px">Coding</h1>
+<p style="font-size: 17px"><a href="brickbreaker.html"><img src="../images/brickbreaker.png" width="40%" height="50%" style="float: right"></a>How to play the game: use the arrow keys to move the Earth left and right (touch the left and right side of the screen if on a mobile device). Hit the spacebar to get the smaller Earth to move and the game to begin. When the smaller Earth hits a polititian, they are knocked from the cabinet. If  the smaller Earth goes below the screen, or the larger Earth is hit by a falling politician, you lose a life. If you  take down all the politicians before losing three lives yourself, you win the game! <b>Click on the image to play.</b></p>
 
-<a href="brickbreaker.html"><img src="../images/brickbreaker.png" width="400" height="260"></a>
-
-<p style="font-size: 17px;">The digital model below was created using code, imitating an actual sculpure folded from paper. Click and drag to view it from different angles.
+<p style="font-size: 17px; float: left">The digital model below was created using code, imitating an actual sculpure folded from paper. Click and drag to view it from different angles.
 
 <script>
 const s1 = (sketch1) => {
@@ -36,7 +34,7 @@ var clicked,
   currentOffset;
 
   sketch1.setup = () => {
-    sketch1.createCanvas(sketch1.windowWidth, 550, sketch1.WEBGL);
+    sketch1.createCanvas(sketch1.windowWidth, sketch1.windowWidth / 2, sketch1.WEBGL);
     currentOffset = sketch1.createVector(0, 0, 0);
   }
 
@@ -121,7 +119,7 @@ sketch1.reset = () => {
 let myp51 = new p5(s1);
 </script>
 
-<script>
+<!-- <script>
 const s2 = (sketch2) => {
 
   sketch2.setup = () => {
@@ -134,10 +132,10 @@ const s2 = (sketch2) => {
 }
 
 let myp52 = new p5(s2);
-</script>
+</script> -->
 
 
-</div>
+<!-- </div> -->
 
 </body>
 

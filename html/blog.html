@@ -6,8 +6,22 @@
   <link rel="stylesheet" type="text/css" href="../style.css">
   <link rel="stylesheet" type="text/css" href="../blog.css">
   <style>
-  .storyname {font-size: 30px; text-decoration: underline; color; black; background-color: white; padding: 2px; padding-bottom: 0} 
-  .storyimage {width: 320px; height: 240px}
+  img {width: 400px; height: 300px}
+  .container {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    float:  left;
+  }
+  .text-block {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 2px;
+    padding-bottom: 0px;
   </style>
 </head>
 
@@ -22,11 +36,36 @@
     <a style="float: right" href="#">bocresser.github.io/website</a>
 </nav>
 
-<div style="margin-left: 30px; margin-right: 30px;">
-<h1 style="color: black; margin: 0; margin-top: 25px;">Short Stories</h1><br>
-<a class="storyname" href="thegraveyardofthedead.html">The Graveyard of the Dead</a><br>
-<img class="storyimage" src="../images/graveyard.jpg"><br><br>
-<a class="storyname" href="theant.html">The Ant</a><br>
-<img class="storyimage" src="../images/ant.jpg">
+<h1 style="color: black; margin-top: 25px; margin-left: 30px; margin-right: 30px">Short Stories</h1>
+
+
+<div class="container">
+  <img src="../images/graveyard.jpg">
+  <div class="text-block">
+    <a href="thegraveyardofthedead.html">The Graveyard of the Dead</a>
+  </div>
 </div>
+<div class="container">
+  <img src="../images/ant.jpg">
+  <div class="text-block">
+    <a href="thegraveyardofthedead.html">The Ant</a>
+  </div>
+</div>
+<div class="container">
+  <img src="../images/coffee.jpg">
+  <div class="text-block">
+    <a href="thegraveyardofthedead.html">Coffee Shop</a>
+  </div>
+</div>
+
+<!-- <a class="storyname" href="thegraveyardofthedead.html"><img class="storyimage" src="../images/graveyard.jpg">The Graveyard of the Dead</a>
+<a class="storyname" href="thegraveyardofthedead.html"><img class="storyimage" src="../images/graveyard.jpg">The Graveyard of the Dead</a>
+<a class="storyname" href="thegraveyardofthedead.html"><img class="storyimage" src="../images/graveyard.jpg">The Graveyard of the Dead</a> -->
+
+<!-- <a class="storyname" href="thegraveyardofthedead.html">The Graveyard of the Dead</a>
+<img class="storyimage" src="../images/graveyard.jpg">
+<a class="storyname" href="theant.html">The Ant</a>
+<img class="storyimage" src="../images/ant.jpg">
+<a class="storyname" href="coffeeshop.html">Coffee Shop</a>
+<img class="storyimage" src="../images/coffee.jpg"> -->
 </body>
